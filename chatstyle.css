@@ -1,0 +1,8 @@
+.chat {width:380px;border:1px solid blue;height:265px;padding:10px;overflow:auto;}
+.chat-container {float:left;width:400px;border:1px solid black;height:300px;padding:10px;}
+.user-container {float:left;width:100px;border:1px solid yellow;height:300px;padding:10px;}
+span.users {font-weight:bold;}
+#users {padding-top: 10px;}
+#users a, #users a:visited {text-decoration:none;color:black;}
+.hidden {display:none;}
+.pending, .pending a, .pending a:visited {color:red !important;text-decoration:underline !important;font-weight:bold;}

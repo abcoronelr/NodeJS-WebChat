@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf8">
+    <title>Web chat</title>
+    <script src="http://localhost:8080/socket.io/socket.io.js"></script>
+    <script src="jquery-1.8.0.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="chatstyle.css">
+    
+</head>
+<body>
+    <div class='user-container'>
+        <div><span class='users'>Usuarios<span></div>
+        <div id="users"></div>
+    </div>
+    <div class='chat-container'>
+        <div id='chat'>
+            <div id="GeneralRoom" class="chat"></div>
+        </div>
+        <div>
+            <input type="text" id="message">
+            <input type="button" id="datasend" value="Send!">
+        </div> 
+    </div>
+
+    <script src="webchat.js"></script>
+</body>
+</html>
