@@ -1,4 +1,4 @@
-var io = require('socket.io').listen(8080);
+var io = require('socket.io').listen(80);
 
 // usernames which are currently connected to the chat
 var usernames = {};
