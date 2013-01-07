@@ -4,5 +4,5 @@
 span.users {font-weight:bold;}
 #users {padding-top: 10px;}
 #users a, #users a:visited {text-decoration:none;color:black;}
-.hidden {display:none;}
+.hidden {display:none; }
 .pending, .pending a, .pending a:visited {color:red !important;text-decoration:underline !important;font-weight:bold;}
